@@ -1,0 +1,96 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+.card{
+    position: absolute;
+    left: 15%;
+    top: 50px;
+    width: 70%;
+    box-shadow: 10px 10px 4px black;
+}
+
+.card svg{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.username{
+    font-weight: bold;
+}
+
+.head2{
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.head2:hover{
+    color: #f4d04e;
+}
+.card:hover{
+    box-shadow: 15px 15px 4px black;
+
+}
+
+}
+ 
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+      
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   }
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .card{
+        position: absolute;
+        left: 35%;
+        top: 50px;
+        width: 25%;
+        box-shadow: 10px 10px 4px black;
+    }
+    
+    .card svg{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
+        border-radius: 10%;;
+    }
+    
+    .username{
+        font-weight: bold;
+    }
+    
+    .head2{
+        font-size: 25px;
+        font-weight: bold;
+        position: relative;
+        top: 10px;
+    }
+
+    .head2:hover{
+        color: #f4d04e;
+    }
+    .card:hover{
+        box-shadow: 20px 20px 4px black;
+
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
